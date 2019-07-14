@@ -13,16 +13,5 @@ public class FirstServlet extends HttpServlet {
                          HttpServletResponse resp)
             throws ServletException, IOException {
       resp.getWriter().write("<html><head></head><body>toto</body>");
-
-
-      String parameter= req.getParameter("produit");
-
-
-
-
-
-
-
-      System.out.println(parameter);
     }
 }
